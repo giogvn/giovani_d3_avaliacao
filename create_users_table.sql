@@ -1,7 +1,4 @@
-CREATE DATABASE [giovani_d3_avaliacao];
-GO
-
-USE [giovani_d3_avaliacao];
+USE [db_7];
 GO
 
 CREATE TABLE Users(
