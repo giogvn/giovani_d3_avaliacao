@@ -72,7 +72,7 @@ namespace giovani_d3_avaliacao
                         Console.WriteLine("\nDigite o email do usuário");
                         email = Console.ReadLine();
 
-                        Console.WriteLine("\nDigite a senha do uisuário");
+                        Console.WriteLine("\nDigite a senha do usuário");
                         pwd = Console.ReadLine();
 
                         User newUser = new()
