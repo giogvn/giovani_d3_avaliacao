@@ -9,8 +9,7 @@ namespace giovani_d3_avaliacao.Repositories
     public class UserRepository : IUser
     {
 
-        // EDITAR STRING DE CONEXÃO AO BD ABAIXO!
-        private readonly string conStr = "";
+        private readonly string conStr = "Server=labsoft.pcs.usp.br; Initial Catalog=db_7; User id=usuario_7; pwd=44192792818;";
         
 
         public int Create(User newUser)
