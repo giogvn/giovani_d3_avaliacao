@@ -10,7 +10,7 @@ namespace giovani_d3_avaliacao.Repositories
     {
 
         // EDITAR STRING DE CONEXÃO AO BD ABAIXO!
-        private readonly string conStr = "Server=localhost; Initial Catalog=Catalog; User id=sa; pwd=SeravaT20!;";
+        private readonly string conStr = "";
         
 
         public int Create(User newUser)
