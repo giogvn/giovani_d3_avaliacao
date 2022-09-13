@@ -8,8 +8,8 @@ namespace giovani_d3_avaliacao.Repositories
 {
     public class UserRepository : IUser
     {
-
-        private readonly string conStr = "Server=labsoft.pcs.usp.br; Initial Catalog=db_7; User id=usuario_7; pwd=44192792818;";
+        //Insert pwd below
+        private readonly string conStr = "Server=labsoft.pcs.usp.br; Initial Catalog=db_7; User id=usuario_7; pwd=;";
         
 
         public int Create(User newUser)
